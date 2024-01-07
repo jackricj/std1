@@ -1,0 +1,22 @@
+#!/bin/bash
+
+getX() {
+    x=$1
+    shift
+    nums=("$@")
+    
+    if (( x > ${#nums[@]} )); then
+        echo "X is larger than the length of the list"
+        echo "${nums[@]}"
+        return
+    fi
+
+    sorted_nums=($(printf '%s\n' "${nums[@]}" | sort -n))
+    xth_num=${sorted_nums[$((x-1))]}
+    
+    echo "Xth number: $xth_num"
+    echo "Sorted list: ${sorted_nums[@]}"
+}
+
+getX 3 2 1 3 4 5
+s
