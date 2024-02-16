@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en-GB" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.005" style="s2">Welcome to this Docuneering ... Business Solutions Department ... product demonstration</p>
+<p begin="00:00:05.694" end="00:00:14.014" style="s2">The product is our Docuneering ... S1000D version 4.x Publication Module Builder ... and in this video we’re going to do a quick end-to-end demonstration</p>
+<p begin="00:00:14.683" end="00:00:17.017" style="s2">We start the application from the Start Menu</p>
+<p begin="00:00:20.721" end="00:00:25.759" style="s2">And this is our S1000D version 4.x ... Publication Module Builder</p>
+<p begin="00:00:26.035" end="00:00:34.535" style="s2">For this quick end-to-end demonstration ... we have already pre-set an XML source folder which ... for those who are curious ... contains the version 4.1 Bike dataset</p>
+<p begin="00:00:35.002" end="00:00:39.707" style="s2">The process ... is to now interrogate what source data is contained in this source folder</p>
+<p begin="00:00:40.007" end="00:00:43.010" style="s2">Click the magnify icon ... to start the interrogation process</p>
+<p begin="00:00:43.410" end="00:00:50.017" style="s2">As the application starts to analyse files contained in the source folder, the progress bar will display a percentage of task complete</p>
+<p begin="00:00:52.849" end="00:01:00.027" style="s2">Once all the source folder analysis is complete ... the progress bar will be at 100% ... and a popup will inform you that the process is complete</p>
+<p begin="00:01:01.028" end="00:01:03.030" style="s2">Click OK to close this popup</p>
+<p begin="00:01:03.497" end="00:01:13.374" style="s2">The application now knows what files are contained in the source folder ... and the Publication Module dropdown has been populated with a list of all the Publication Modules found in the source folder</p>
+<p begin="00:01:13.738" end="00:01:18.011" style="s2">Select a Publication Module from this dropdown list and click the “Start PM Builder” button</p>
+<p begin="00:01:18.479" end="00:01:26.587" style="s2">The progress bar will again display a percentage of task complete and information about the build process is output in the Details window below the progress bar</p>
+<p begin="00:01:27.134" end="00:01:39.233" style="s2">Once all Publication data has been compiled into a build file ... the build file is passed to the Apache FOP Print Formatter for final processing. A separate command window will open to display the FOP process</p>
+<p begin="00:01:43.958" end="00:01:49.743" style="s2">Once all FOP processing is complete ... the generated PDF will open to display your Publication</p>
+<p begin="00:01:52.680" end="00:01:59.186" style="s2">In the case of this demonstration ... we have created a 402 page PDF file complete with bookmarks for navigation</p>
+<p begin="00:01:59.881" end="00:02:04.391" style="s2">A link will be provided to allow you to download this PDF file for a closer review</p>
+<p begin="00:02:05.278" end="00:02:12.466" style="s2">This concludes our quick end-to-end demonstration of the Docuneering S1000D version 4.x – Publication Module Builder</p>
+<p begin="00:02:14.204" end="00:02:17.070" style="s2">Please get in touch with us for any further information</p>
+</div>
+</body>
+</tt>
