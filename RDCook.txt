@@ -1,275 +1,1000 @@
-[
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.35951,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "SAPISID",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "_oWrd3trcd3bngyk/Ajp7uytVRCRX9EE3Y"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359595,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "__Secure-3PAPISID",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "_oWrd3trcd3bngyk/Ajp7uytVRCRX9EE3Y"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1732074922.371841,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "AEC",
-        "path": "/",
-        "sameSite": "lax",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "AQTF6HywS-rJqRTkY1m-09m2q_YQW3gnNf2IAiduv8HgrWVuICGpBvDu5tc"
-    },
-    {
-        "domain": "remotedesktop.google.com",
-        "expirationDate": 1719114905,
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": "OTZ",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "7570315_84_88_104280_84_446940"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1732454600.307333,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "NID",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "514=yx073-acFhkf0afNvqe6ALy7hDdIMS1uJaf85bVBFBWwkUw7NBjd_38gkC-e-X7i8mXdmtOaKxSKWFRwgARU_t4LEtVY_3HxJZ7kDSOOkn6PxFKJnVtIV--PgCm1Cni0f1J0HLR_kb9Ixzy3WDwtYdl0MCsoeqiezskaEas2EDDrDf0EtKMc_uu_ZWHcOgVVH5dBcsnKJzzuWNolzma-pSxCb7Yvm01XenvNCUGb9kXOHWUgZ6HxFDru6OQgrPbRdOnPIjMsN3IwIRa_mUKeI4QmysbG1Pzo66_hbw"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359453,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "APISID",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "t6c08pqDvKoKAHlo/AzYJ3ennGVkFfBlxF"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1748185255.780403,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-1PSIDTS",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "sidts-CjEBLwcBXPtdLPe0_Bou6XHTG77H288M7Jb-tCPytKnDFjwk9qmEkKZLcn-g3yG9StitEAA"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359554,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "__Secure-1PAPISID",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "_oWrd3trcd3bngyk/Ajp7uytVRCRX9EE3Y"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359187,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-3PSID",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "g.a000kAjlHBLiiodPGdvlCy0AZiNmvE9tUg7cBlY5HwbSOrCF1yOo8QEbT5Yrz9irLWOYbbdX7AACgYKAUMSAQASFQHGX2MieI-CDhOVpBlN0PfmugYzVBoVAUF8yKqJKRdiLKsY3Og5qkOnPlG40076"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359138,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-1PSID",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "g.a000kAjlHBLiiodPGdvlCy0AZiNmvE9tUg7cBlY5HwbSOrCF1yOotp4ylbnlqdRaarir0LXv1AACgYKAaYSAQASFQHGX2MiUF54HhSNFmHx1AK5ZyvvSxoVAUF8yKoh_N7xryjJ-0Q0vs66E7P20076"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1748185266.000269,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-1PSIDCC",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "AKEyXzV6KW1d2s4qgO1EFjM7htS2CQOMxrUseEywSeClaNM2ABkPwr5nGcln-hw0knJz4tVd6rk"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1748185266.000371,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-3PSIDCC",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "AKEyXzV3_Vs3eGYE_w1nQy8O6V8KMROeR5M082qFl5LAFvFibwkthy7JMBDwXzsVozW98vvQeg"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1748185255.780557,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__Secure-3PSIDTS",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "sidts-CjEBLwcBXPtdLPe0_Bou6XHTG77H288M7Jb-tCPytKnDFjwk9qmEkKZLcn-g3yG9StitEAA"
-    },
-    {
-        "domain": "remotedesktop.google.com",
-        "expirationDate": 1751082901.258441,
-        "hostOnly": true,
-        "httpOnly": true,
-        "name": "__Secure-OSID",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "g.a000kAjlHD9NahbnjJ3gupD-RKs_OuK8mHoaqNLRap3w-I7sZUvcauTfcOXFSywra3abkuZ43gACgYKAWUSARYSFQHGX2MirS-oFL8TUZXo_nUwcBFPWhoVAUF8yKq0RjRSWJ1Pg65di6B-ntJi0076"
-    },
-    {
-        "domain": "remotedesktop.google.com",
-        "expirationDate": 1724538490,
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": "CRD_LAST_PAGE_VISITED",
-        "path": "/",
-        "sameSite": "strict",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "1"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359352,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "HSID",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "A7xvGm0YAbiosTjkv"
-    },
-    {
-        "domain": "remotedesktop.google.com",
-        "expirationDate": 1751082901.258326,
-        "hostOnly": true,
-        "httpOnly": true,
-        "name": "OSID",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "g.a000kAjlHD9NahbnjJ3gupD-RKs_OuK8mHoaqNLRap3w-I7sZUvcU9G37Xj4DtciRndzK52HQAACgYKARASARYSFQHGX2MiCLqp856boPyF1cuSLOfq-BoVAUF8yKr5Fb32elj0wA5NS_FcdIL30076"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1732074922.371749,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "SEARCH_SAMESITE",
-        "path": "/",
-        "sameSite": "strict",
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "CgQIm5sB"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359083,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "SID",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "g.a000kAjlHBLiiodPGdvlCy0AZiNmvE9tUg7cBlY5HwbSOrCF1yOo8HC--t3zV9K0enNfgFZLYgACgYKAdUSAQASFQHGX2MiiR63UGdXG0_avoaTPYuHwxoVAUF8yKrmcVOMBQ2kx5NbcnUVS-D_0076"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1748185265.999982,
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "SIDCC",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": false,
-        "storeId": null,
-        "value": "AKEyXzVu6H4xUUX_REP2H-hDFrAg2uPF3C3m-5U4ymmCZ4T7ntit9W8BDsmJRmmEVBSPlns4d8o"
-    },
-    {
-        "domain": ".google.com",
-        "expirationDate": 1751122127.359401,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "SSID",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "A-eBuQvK6JhuY27HS"
-    }
-]
+Link of study related to the topic	Submit by
+https://pubmed.ncbi.nlm.nih.gov/26816932/	Dr Uswah
+https://pubmed.ncbi.nlm.nih.gov/1341630/	Dr Uswah
+https://pubmed.ncbi.nlm.nih.gov/17315378/	Dr Uswah
+[Percutaneous mitral valvulotomy: comparison of 2 techniques in 100 matched-pair patients]	Dr Uswah
+Predictors of unsuccessful outcome after percutaneous mitral valvulotomy including a new echocardiographic scoring system	Dr Uswah
+Safety and efficacy of percutaneous balloon mitral valvotomy in severe mitral stenosis with moderate mitral regurgitation - A prospective study	Syed M Hassan
+https://pubmed.ncbi.nlm.nih.gov/30580853/	syed M Hassan
+https://www.sciencedirect.com/science/article/pii/S0022522319352948	syed M Hassan
+https://www.sciencedirect.com/science/article/pii/S0019483216300748	syed M Hassan
+https://www.hindawi.com/journals/bmri/2016/3298343/	syed M Hassan
+https://pubmed.ncbi.nlm.nih.gov/32950446/	syed M Hassan
+https://www.nejm.org/doi/full/10.1056/NEJM199410133311501	syed M Hassan
+https://jamanetwork.com/journals/jama/article-abstract/408789	syed M Hassan
+https://www.sciencedirect.com/science/article/abs/pii/S0002914999806365	syed M Hassan
+https://www.sciencedirect.com/science/article/abs/pii/0002914992900509	syed M Hassan
+https://pubmed.ncbi.nlm.nih.gov/1913784/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/2099527/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/8498370/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/1470738/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/8084354/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/11016017/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/10520804/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/8195521/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/8199382/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/2054817/	Dr Areij
+https://pubmed.ncbi.nlm.nih.gov/28582067/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/28582067/	Dr Temisaren 
+https://pubmed.ncbi.nlm.nih.gov/27502294/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/32093442/	Dr Temisaren 
+https://pubmed.ncbi.nlm.nih.gov/8480592/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/25362941/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/26021504/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/12205352/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/18980082/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/12918848/	Dr Temisaren
+ https://pubmed.ncbi.nlm.nih.gov/8012631/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/8195521/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/26204686/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/30487504/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/15821007/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/9158388/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/8197983/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/8259701/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/26876064/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/16198900/	Dr Temisaren
+https://pubmed.ncbi.nlm.nih.gov/15894766/	Dr Temisaren
+	
+https://pubmed.ncbi.nlm.nih.gov/35371802/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/16294825/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/1414901/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/20200640/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/7846430/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/26816932/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/8012630/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/15558754/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/17315378/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/1306621/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/8858509/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/9792020/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/10439674/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/7874858/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/17715623/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/1477867/	DR ARIBA
+https://pubmed.ncbi.nlm.nih.gov/1470738/	DR ARIBA
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
