@@ -1,0 +1,68 @@
+name: Chrome Remote Desktop with Serveo
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: 'Enter the --code value for Chrome Remote Desktop'
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    
+    steps:
+      - name: Enable Terminal Services and Firewall Rules
+        run: |
+          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -Value 0
+          Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
+      - name: Set Password for runneradmin
+        run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
+      
+      - name: Create Keep-Alive Script
+        run: |
+          $keepAliveScript = @"
+          while ($true) {
+              # Connect to the remote session to keep it alive
+              mstsc /v:$Env:COMPUTERNAME
+              echo "Keep-Alive"
+              Start-Sleep -Seconds 300  # Sleep for 5 minutes
+          }
+          "@
+          # Specify directory to make it easier to manage
+          $keepAlivePath = "C:\keepalive"
+          New-Item -Path $keepAlivePath -ItemType Directory -Force
+          Set-Content -Path "$keepAlivePath\keepalive.ps1" -Value $keepAliveScript
+          
+      - name: Download and Install Chrome Remote Desktop Host
+        run: |
+          Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi
+          Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /quiet /norestart' -Wait
+      
+      - name: Start Chrome Remote Desktop & Serveo Tunnel
+        run: |
+          # Start PowerShell script to launch Chrome Remote Desktop host
+          Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit -Command & {& '${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe' --code='${{ github.event.inputs.code }}' --redirect-url='https://remotedesktop.google.com/_/oauthredirect' --name=$Env:COMPUTERNAME}"
+          
+          Start-Sleep -Seconds 5
+          Add-Type -AssemblyName System.Windows.Forms
+          [System.Windows.Forms.SendKeys]::SendWait("123456")
+          Start-Sleep -Seconds 1
+          [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
+          Start-Sleep -Seconds 1
+          [System.Windows.Forms.SendKeys]::SendWait("123456")
+          Start-Sleep -Seconds 1
+          [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
+          Start-Process -FilePath "powershell.exe" -ArgumentList "-File C:\keepalive\keepalive.ps1" -NoNewWindow
+          
+          # Start Serveo tunnel in the background
+          ssh -R 80:localhost:3389 serveo.net &
+          
+          # Get the assigned Serveo URL
+          $serveoUrl = (ssh -R 80:localhost:3389 serveo.net 2>&1 | Select-String -Pattern "https://.*").Matches.Value
+          Write-Output "Serveo URL: $serveoUrl"
+          for ($i = 0; $i -lt 144; $i++) { echo "Keep-Alive"; Start-Sleep -Seconds 600 }
