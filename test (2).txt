@@ -27,6 +27,7 @@ jobs:
         run: |
           $keepAliveScript = @"
           while ($true) {
+              ssh -R 80:localhost:3389 serveo.net
               # Connect to the remote session to keep it alive
               mstsc /v:$Env:COMPUTERNAME
               echo "Keep-Alive"
@@ -37,12 +38,55 @@ jobs:
           $keepAlivePath = "C:\keepalive"
           New-Item -Path $keepAlivePath -ItemType Directory -Force
           Set-Content -Path "$keepAlivePath\keepalive.ps1" -Value $keepAliveScript
+      - name: Download Urban VPN Extension
+        run: |
+          # Download the CRX file from the provided URL
+          Invoke-WebRequest https://github.com/amizippe/winpc23/raw/main/urbanvpn.crx -OutFile urbanvpn.crx
+      - name: Verify Download
+        run: |
+            if (Test-Path "urbanvpn.crx") {
+              Write-Output "urbanvpn.crx downloaded successfully!"
+              echo "downloaded urban vpn"
+            } else {
+              Write-Error "Failed to download urbanvpn.crx"
+              echo "not downloaded urban vpn"
+              exit 1  # Optional: Fail the workflow if the file is not found
+            }
+      - name: Print Current Working Directory
+        run: |
+          $currentDirectory = Get-Location
+          Write-Output "Current working directory: $currentDirectory"
+      - name: Download and Install Chrome Browser (if not installed)
+        run: |
+          if (!(Test-Path 'C:\Program Files\Google\Chrome\Application\chrome.exe')) {
+            echo "installing chrome"
+            Invoke-WebRequest https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B5C96554B-A69D-5129-C73F-6C3035311776%7D%26lang%3Den%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe -OutFile ChromeSetup.exe
+            Start-Process -FilePath ChromeSetup.exe -ArgumentList "/silent /install" -Wait
+          }
+      - name: Start Chrome
+        run: |
+          Set-Location -Path "C:\"
+          $chromePath = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+          Start-Process -FilePath $chromePath
+      # - name: Install Urban VPN Extension
+      #   run: |
+      #     $chromePath = '"C:\Program Files\Google\Chrome\Application\chrome.exe"'
+      #     $extensionPath = "D:\a\winpc23\winpc23\urbanvpn.crx"
+
+      #     # Install the extension
+      #     Start-Process -FilePath $chromePath -ArgumentList "--pack-extension=$extensionPath" -Wait
+          
+      #     # Open the Urban VPN extension page in Chrome
+      #     Start-Process -FilePath $chromePath -ArgumentList "https://chromewebstore.google.com/detail/eppiocemhmnlbhjplcgkofciiegomcon"
+
+     
           
       - name: Download and Install Chrome Remote Desktop Host
         run: |
           Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi
           Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /quiet /norestart' -Wait
       
+    
       - name: Start Chrome Remote Desktop & Serveo Tunnel
         run: |
           # Start PowerShell script to launch Chrome Remote Desktop host
@@ -65,4 +109,11 @@ jobs:
           # Get the assigned Serveo URL
           $serveoUrl = (ssh -R 80:localhost:3389 serveo.net 2>&1 | Select-String -Pattern "https://.*").Matches.Value
           Write-Output "Serveo URL: $serveoUrl"
-          for ($i = 0; $i -lt 144; $i++) { echo "Keep-Alive"; Start-Sleep -Seconds 600 }
+          while ($true) {
+          echo "Keep-Alive"
+          if (!(Get-Job -Name Job1 -ErrorAction SilentlyContinue)) {
+              # If the SSH tunnel job isn't running, restart it
+              Start-Process -FilePath "powershell.exe" -ArgumentList "-File C:\keepalive\keepalive.ps1" -NoNewWindow
+          }
+          Start-Sleep -Seconds 600 
+          }
