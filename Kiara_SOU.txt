@@ -1,9 +1,8 @@
-Endocrine and exocrine glands differ in both structure and function.
+Connective tissues are integral to the support, protection, and integration of different bodily components. The three general characteristics of connective tissues are:
 
-Endocrine Glands:
-Endocrine glands are ductless glands, meaning they lack a system of ducts. Instead, they release their secretions, called hormones, directly into the bloodstream. Endocrine glands are typically composed of clusters of secretory cells that are well-vascularized to facilitate hormone release into the blood vessels. 
-Endocrine glands regulate various physiological processes, including growth and development, metabolism, reproduction, and homeostasis. The endocrine system works in coordination with other systems to maintain overall body homeostasis.
+1. Specialized Cells: Connective tissues contain cells that are specifically designed to support and connect other types of cells and tissue within the body. Some types of these cells are fibroblasts, adipocytes, and leukocytes.
 
-Exocrine Glands: 
-Exocrine glands possess ducts, which are small channels that transport their secretions to specific target locations. These glands release their secretions directly onto body surfaces or into body cavities through the ducts. Exocrine glands are often composed of secretory cells organized into acini or tubules, and their secretory products can include enzymes, mucus, sweat, oil, saliva, and others.
-Exocrine glands secrete their products through ducts to either the external environment or internal body cavities. The secretions of exocrine glands are involved in numerous functions, such as digestion, lubrication, protection, and cooling.
+2. Extracellular Matrix: Connective tissues have a substantial amount of extracellular material or matrix. This matrix is created by the connective tissue cells and contains ground substance (non-fibrous protein and other molecules) and fibers (elastic, collagen, and reticular).
+
+3. Degree of Vascularity: Connective tissues have varying degrees of vascularity. For instance, tissues such as cartilage are avascular, meaning they don't contain blood vessels. Other connective tissues, like adipose tissues, have an abundant supply of blood vessels. This allows for different rates of healing; avascular tissues heal at a much slower rate since they lack the blood vessels necessary for delivering oxygen and nutrients to the cells.
+
