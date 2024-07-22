@@ -1,13 +1,26 @@
-The structure of connective tissue directly reflects its functions:
+attaches bones to bones and muscles to bones
+dense regular connective tissue
 
-1. Specialized Cells: The variety of cell types found in connective tissues, including fibroblasts, chondrocytes and adipocytes, each with distinctive properties allows for a range of functions like secreting fibrous proteins for structural integrity (fibroblasts), maintaining cartilage (chondrocytes), or storing energy (adipocytes).
+insulates against heat loss
+adipose connective tissue
 
-2. Extracellular Matrix: The abundance of extracellular material or matrix in connective tissue gives it the strength to provide support and also connect different tissues. The matrix is made of a mix of water, proteins and complex carbohydrates, giving it both structure (due to fibers like collagen and elastin) and the ability to resist compression (due to the proteoglycans in the ground substance).
+forms the fibrous joint capsule
+dense irregular connective tissue
 
-3. Fibers: The types of fibers present in the extracellular matrix also reflect functionality. Collagen fibers provide strength and flexibility, elastin fibers give elasticity (as in the walls of large arteries and lungs), and reticular fibers offer support in the walls of blood vessels and form a network around the cells in some tissues.
+makes up the intervertebral discs
+fibrocartilage
 
-4. Vascularity: Connective tissues' varying degrees of vascularity, or blood supply, also support function. Tissues like bone have high vascularity, ensuring rapid recovery from injury, while avascular tissues like cartilage are slow to heal.
+composes basement membranes; a soft packaging tissue with a jellylike matrix
+areolar connective tissue
 
-5. Distribution of Cells and Matrix: The cells in connective tissue can be densely packed, such as in adipose tissue – this aids in fat storage, or they can be more loosely arranged with lots of extracellular matrix, allowing for a more flexible linking of organs or other tissue types. 
+forms the larynx, the costal cartilages of the ribs, and the embryonic skeleton
+hyaline cartilage
 
-6. Immunological Features: Certain connective tissues also have immunological functions. The presence of immune cells like macrophages and lymphocytes play a significant role in defending the body against microbial invasion.
+provides a flexible framework for the external ear
+elastic cartilage
+
+provides levers for muscles to act on
+osseous tissue
+
+forms the walls of large arteries
+elastic connective tissue.
