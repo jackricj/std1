@@ -1,26 +1,10 @@
-attaches bones to bones and muscles to bones
-dense regular connective tissue
+14. What two physiological characteristics are highly developed in neurons?
+Excitability and conductivity are two physiological characteristics highly developed in neurons.
 
-insulates against heat loss
-adipose connective tissue
+15. In what ways are neurons similar to other cells and how are they structurally different?
+Similarities: Neurons, like other cells, have a nucleus, mitochondria, and other organelles.
 
-forms the fibrous joint capsule
-dense irregular connective tissue
+Differences: Neurons have specialized extensions called dendrites and axons for receiving and transmitting signals, respectively. They also possess synapses for communication.
 
-makes up the intervertebral discs
-fibrocartilage
-
-composes basement membranes; a soft packaging tissue with a jellylike matrix
-areolar connective tissue
-
-forms the larynx, the costal cartilages of the ribs, and the embryonic skeleton
-hyaline cartilage
-
-provides a flexible framework for the external ear
-elastic cartilage
-
-provides levers for muscles to act on
-osseous tissue
-
-forms the walls of large arteries
-elastic connective tissue.
+16. Describe how the unique structure of a neuron relates to its function in the body.
+A neuron's unique structure with dendrites and an axon allows it to receive, process, and transmit information through electrical and chemical signals across the body, facilitating communication between the brain and other body parts.
