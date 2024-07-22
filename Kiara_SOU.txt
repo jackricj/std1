@@ -1,10 +1,8 @@
-14. What two physiological characteristics are highly developed in neurons?
-Excitability and conductivity are two physiological characteristics highly developed in neurons.
+Skeletal muscle
+striated, cylindrical cells, voluntary, many nuclei, attached to bones
 
-15. In what ways are neurons similar to other cells and how are they structurally different?
-Similarities: Neurons, like other cells, have a nucleus, mitochondria, and other organelles.
+Cardiac muscle
+striated, branching cells, involuntary, one nucleus, intercalated discs, forms heart walls
 
-Differences: Neurons have specialized extensions called dendrites and axons for receiving and transmitting signals, respectively. They also possess synapses for communication.
-
-16. Describe how the unique structure of a neuron relates to its function in the body.
-A neuron's unique structure with dendrites and an axon allows it to receive, process, and transmit information through electrical and chemical signals across the body, facilitating communication between the brain and other body parts.
+Smooth muscle
+spindle-shaped cells, involuntary, one nucleus, in wall of bladder and stomach
