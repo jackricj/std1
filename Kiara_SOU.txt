@@ -1,6 +1,3 @@
-Most epithelia that function to protect share a structural feature called stratification, or multiples layers of, cells. In such stratified epithelium, two or more layers of cells are present wherein the basal layer contacts a basement membrane while the apical layer is exposed to the external environment or a lumen. This in turn affords durability and protection against mechanical stresses, abrasion, and possible damages.
+Pseudostratified Columnar Epithelium
 
-The outermost layer usually comprises flattened cells, squamous in shape; these are more resistant because they are subjected to more wear and tear. Other layers may include different cell shapes depending on the location and function of this epithelium. The stratified epithelia, which have a protective function, include those of the skin epidermis, lining of the mouth cavity, oesophagus, and vagina.
-
-It forms stratified epithelia whose arrangement of cells reinforces and protects underlying tissues from external factors, such as traumatic and frictional forces, invasion by pathogens, and chemical toxins, thus ensuring protection to the underneath tissue or organ.
-
+The cilia on the surface of pseudostratified columnar epithelium help in the movement of mucus and debris. An example of this can be found in the respiratory system, specifically in the trachea and bronchi, where ciliated pseudostratified columnar epithelium helps to propel mucus and trapped particles out of the airways.
