@@ -1,1 +1,10 @@
-Histology is the section of biology and medical science concerned with the study of tissues. It basically means the minute examination of cells and tissues to determine structure, organization, composition, and function. histology In most cases, applies techniques such as tissue processing, staining, and microscopy to study tissues at a cellular level.
+The epithelium displays the following five general characteristics:.
+
+Cellular Arrangement: The epithelial tissue is made up of closely arranged cells forming continuous sheets or layers. There is a strong connection of one cell to another because of the presence of specialized junctions of tight and desmosomes, thereby bestowing structural coherence on the tissue.
+
+Polarity: This refers to the structural and functional differences that exist between the apical and basal surfaces of epithelial cells. The apical surface is directed toward a lumen or the external environment, but the basal surface is attached to the connective tissue.
+
+Specialized Cell Shape: Epithelial cells have shapes that may be squamous, cuboidal, or columnar, depending on their function. The shape of the cell often refers to the specific function that the cells perform in a particular tissue.
+
+Attachment and Avascularity: The anchorage to the basement membrane supports. It is a relatively thin layer of connective tissue providing anchorage and forms a somewhat selective diffusion barrier. The epithelial tissue itself is avascular and therefore poorly nourished since it lacks blood vessels. Instead, it has to obtain nutrients by diffusion from the underlying blood vessels in the connective tissue.
+Regeneration and renewal: epithelial tissue is well ready for renovation. Taking into account the continuous characters of all outside surroundings and mechanical tensions, very often cells perish due to division, later on filling up spaces with new replacement cells in place of those dead or dying divisions. This regenerative ability aids repair in damaged tissues or lost epithelium.
