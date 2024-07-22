@@ -1,1 +1,9 @@
-Its structure makes transitional epithelium suitable to serve its main purpose: providing both distensibility and protection to organs that change a great deal in volume. For example, the lining of the urinary bladder with transitional epithelium allows it to expand when full of urine and then recoils back when the urine is expelled. The transitional epithelium has a unique property of change of shape and stretching without tearing or disrupting the integrity of the epithelial barrier, allowing changes in organ volume while still providing protection in an impermeable way against urine and its toxic contents.
+Endocrine and exocrine glands differ in both structure and function.
+
+Endocrine Glands:
+Endocrine glands are ductless glands, meaning they lack a system of ducts. Instead, they release their secretions, called hormones, directly into the bloodstream. Endocrine glands are typically composed of clusters of secretory cells that are well-vascularized to facilitate hormone release into the blood vessels. 
+Endocrine glands regulate various physiological processes, including growth and development, metabolism, reproduction, and homeostasis. The endocrine system works in coordination with other systems to maintain overall body homeostasis.
+
+Exocrine Glands: 
+Exocrine glands possess ducts, which are small channels that transport their secretions to specific target locations. These glands release their secretions directly onto body surfaces or into body cavities through the ducts. Exocrine glands are often composed of secretory cells organized into acini or tubules, and their secretory products can include enzymes, mucus, sweat, oil, saliva, and others.
+Exocrine glands secrete their products through ducts to either the external environment or internal body cavities. The secretions of exocrine glands are involved in numerous functions, such as digestion, lubrication, protection, and cooling.
