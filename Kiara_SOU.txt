@@ -1,3 +1,3 @@
 Simple Columnar Epithelium
 
-Goblet cells are specialized secretory cells found within the simple columnar epithelium. They secrete mucus, which acts as a protective and lubricating layer. An example of this can be seen in the lining of the digestive tract, particularly in the small intestine, where the simple columnar epithelium with goblet cells secretes mucus to aid in the movement of food and protect the lining from digestive enzymes.
+Microvilli are tiny finger-like projections on the surface of cells that increase the surface area for absorption and secretion. Simple columnar epithelium with microvilli is commonly found in the lining of the small intestine, where the microvilli greatly enhance the absorption of nutrients from digested food into the bloodstream. Their presence increases the efficiency of nutrient absorption by maximizing the available surface area for absorption.
