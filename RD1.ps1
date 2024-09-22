@@ -1,13 +1,14 @@
 $username = $env:USERNAME
 
+Set-ExecutionPolicy Unrestricted
 
-Unblock-File -Path "C:\Users\$username\Downloads\RD.ps1"
+Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 
 
 
 # Define variables
-$code = '4/0AQlEd8xK1n5LUq1twKgaco_kgOYFKoWMBI8pTySQgKgj2uhjQCi6prytNEsAfSYAzE3mTA'
-$name = 'Windows360'
+$code = '4/0AQlEd8zg0GKpL5La-mpJeE7nPFfb_zrX428RV7xRyFDKAAWxjhM-doYwf8zTVmCdVm3Dgw'
+$name = 'RDP'
 
 # Download the Chrome Remote Desktop Host MSI
 Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -NoProfile -Command Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi" -WindowStyle Hidden -Wait
