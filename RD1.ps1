@@ -8,16 +8,16 @@ Write-Host "Step 2"
 
 $username = $env:USERNAME
 
-Start-Process powershell -Verb RunAs
+# Start-Process powershell -Verb RunAs
 
 Write-Host "Step 3"
 
-Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
+# Unblock-File -Path "C:\Users\$username\Downloads\RD2.ps1"
 
 Write-Host "Step 4"
 
 # Define variables
-$code = '4/0AQlEd8wphDbtGeAztU0scuzJqlChTaIpuoi9ETVHgiVdf4b3IvoMDCb7bu21eAK0SAamHw'
+$code = '4/0AQlEd8wSHKzRjhLYMKsFieRPYpyHP8CgKVqexS944sF1aYbtNZbH3N9fDTqFecsM9ta2tA'
 $name = 'RDP'
 
 Write-Host "Step 5"
@@ -28,7 +28,7 @@ Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass 
 Write-Host "Step 6"
 
 
-Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /norestart' -Wait
+Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /quiet /norestart' -Wait
 
 Write-Host "Step 7"
 
