@@ -1,27 +1,43 @@
+
+
+Write-Host "Step 1"
+
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
+Write-Host "Step 2"
 
 $username = $env:USERNAME
 
 Start-Process powershell -Verb RunAs
 
+Write-Host "Step 3"
+
 Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 
-
+Write-Host "Step 4"
 
 # Define variables
 $code = '4/0AQlEd8wn2adqSlQR3riRShJwfEhU9lTT5WrFBz_23cBbeEW5z9Cqwe3pHMKY51WyxgI1Dg'
 $name = 'RDP'
 
+Write-Host "Step 5"
+
 # Download the Chrome Remote Desktop Host MSI
 Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -NoProfile -Command Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi" -WindowStyle Hidden -Wait
 
+Write-Host "Step 6"
+
 
 Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /norestart' -Wait
+
+Write-Host "Step 7"
 
 Start-Sleep -Seconds 5
 
 # Start the Chrome Remote Desktop Host with the provided code and name
 Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit -Command & {& '${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe' --code='$code' --redirect-url='https://remotedesktop.google.com/_/oauthredirect' --name='$name'}"
+
+Write-Host "Step 8"
 
 # Wait for the process to start
 Start-Sleep -Seconds 5
