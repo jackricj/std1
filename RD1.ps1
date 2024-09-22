@@ -1,8 +1,8 @@
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
 $username = $env:USERNAME
 
 Start-Process powershell -Verb RunAs
-
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 
