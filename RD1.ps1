@@ -2,14 +2,14 @@ $username = $env:USERNAME
 
 Start-Process powershell -Verb RunAs
 
-Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 
 
 
 # Define variables
-$code = '4/0AQlEd8zg0GKpL5La-mpJeE7nPFfb_zrX428RV7xRyFDKAAWxjhM-doYwf8zTVmCdVm3Dgw'
+$code = '4/0AQlEd8wn2adqSlQR3riRShJwfEhU9lTT5WrFBz_23cBbeEW5z9Cqwe3pHMKY51WyxgI1Dg'
 $name = 'RDP'
 
 # Download the Chrome Remote Desktop Host MSI
