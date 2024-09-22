@@ -2,7 +2,7 @@
 
 Write-Host "Step 1"
 
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force -Confirm:$false
 
 Write-Host "Step 2"
 
@@ -17,7 +17,7 @@ Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 Write-Host "Step 4"
 
 # Define variables
-$code = '4/0AQlEd8yWRe_yIYUgc_ohGcggMji0w-sn3JV37CKHxIuUvMS6L0OQWOYctjrL82cVVq4Oww'
+$code = '4/0AQlEd8wphDbtGeAztU0scuzJqlChTaIpuoi9ETVHgiVdf4b3IvoMDCb7bu21eAK0SAamHw'
 $name = 'RDP'
 
 Write-Host "Step 5"
@@ -35,7 +35,7 @@ Write-Host "Step 7"
 Start-Sleep -Seconds 5
 
 # Start the Chrome Remote Desktop Host with the provided code and name
-Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit -Command & {& '${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe' --code='$code' --redirect-url='https://remotedesktop.google.com/_/oauthredirect' --name='$name'}"
+Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit -Command & {& '${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe' --code='$code' --redirect-url='https://remotedesktop.google.com/_/oauthredirect' --name='$name' --pin='123456'}"
 
 Write-Host "Step 8"
 
