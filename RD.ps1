@@ -6,11 +6,11 @@ Unblock-File -Path "C:\Users\$username\Downloads\RD.ps1"
 
 
 # Define variables
-$code = '4/0AQlEd8xAh8x8RqN96ZfiT-73eGzigTKluSnRcQStZ6I4lZco2Xw_Hk9OW4_Ga2Fl_trvfw'
+$code = '4/0AQlEd8xK1n5LUq1twKgaco_kgOYFKoWMBI8pTySQgKgj2uhjQCi6prytNEsAfSYAzE3mTA'
 $name = 'Windows360'
 
 # Download the Chrome Remote Desktop Host MSI
-Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -Command Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi" -WindowStyle Hidden -Wait
+Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -NoProfile -Command Invoke-WebRequest https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -OutFile chromeremotedesktophost.msi" -WindowStyle Hidden -Wait
 
 
 Start-Process msiexec.exe -ArgumentList '/i chromeremotedesktophost.msi /norestart' -Wait
