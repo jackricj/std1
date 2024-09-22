@@ -1,5 +1,7 @@
 $username = $env:USERNAME
 
+Start-Process powershell -Verb RunAs
+
 Set-ExecutionPolicy Unrestricted
 
 Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
