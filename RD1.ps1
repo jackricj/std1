@@ -17,7 +17,7 @@ Unblock-File -Path "C:\Users\$username\Downloads\RD1.ps1"
 Write-Host "Step 4"
 
 # Define variables
-$code = '4/0AQlEd8wn2adqSlQR3riRShJwfEhU9lTT5WrFBz_23cBbeEW5z9Cqwe3pHMKY51WyxgI1Dg'
+$code = '4/0AQlEd8yWRe_yIYUgc_ohGcggMji0w-sn3JV37CKHxIuUvMS6L0OQWOYctjrL82cVVq4Oww'
 $name = 'RDP'
 
 Write-Host "Step 5"
