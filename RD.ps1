@@ -6,7 +6,7 @@ Unblock-File -Path "C:\Users\$username\Downloads\RD.ps1"
 
 
 # Define variables
-$code = '4/0AQlEd8x4QqV8_r2Kmp-zhUhjrCLkvbHPX7EzlSjvXY3s7FPc6EoOlBb28GwD5ieG4E1Oqg'
+$code = 4/0AQlEd8xAh8x8RqN96ZfiT-73eGzigTKluSnRcQStZ6I4lZco2Xw_Hk9OW4_Ga2Fl_trvfw'
 $name = 'Windows360'
 
 # Download the Chrome Remote Desktop Host MSI
