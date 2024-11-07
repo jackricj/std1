@@ -1,1 +1,1 @@
-https://app.gptzero.me/documents/33960ae9-e29d-47d9-a8fb-66c34ad1c3d8/share
+"%PROGRAMFILES(X86)%\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AVG7fiQf7H2YORTXpzCBzULBoEcfHm9la9tbvHclr13mL5wkpDb9CNI00QQeh64HFnnLug" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=%COMPUTERNAME%
