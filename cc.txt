@@ -1,0 +1,5 @@
+https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
+
+
+
+"%PROGRAMFILES(X86)%\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0Ab_5qlne1IhJ0pzH_LXj1O-1NnMs73ZwyieHc2v54LFx4k9AMfCimippgnO22P-UgshsYg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=%COMPUTERNAME%
